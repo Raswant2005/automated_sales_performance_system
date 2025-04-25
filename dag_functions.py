@@ -9,8 +9,8 @@ def extract_data_from_aws(**kwargs):
     try:
         s3 = boto3.client(
             's3',
-            aws_access_key_id="AKIAXKPUZPDURRFQGERX",
-            aws_secret_access_key="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",
+            aws_access_key_id="****************",
+            aws_secret_access_key="*******************"",
             config=boto3.session.Config(connect_timeout=120, read_timeout=120)
         )
 
