@@ -80,8 +80,8 @@ def generate_insights(**Kwargs):
     
     s3 = boto3.client(
         's3',
-        aws_access_key_id="AKIAXKPUZPDURRFQGERX",
-        aws_secret_access_key="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"
+        aws_access_key_id="***************",
+        aws_secret_access_key="***************"
     )
     bucket_name = "zaalima-peoject-datasets"
     
